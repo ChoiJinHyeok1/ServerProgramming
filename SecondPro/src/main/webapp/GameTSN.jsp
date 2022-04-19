@@ -20,7 +20,7 @@
 			//문자열에서 한 글자씩 뽑아내기
 			out.println("문자열에서 한 글자씩 뽑아내기" + "<br>");
 			sTemp = "ABCD";
-			char cOne = '0';
+			char cOne;
 			for(int nNum = 0; nNum < sTemp.length();nNum++){
 				cOne = sTemp.charAt(nNum);
 				out.println(cOne + "<br>");

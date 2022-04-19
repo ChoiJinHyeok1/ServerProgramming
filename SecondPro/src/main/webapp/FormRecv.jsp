@@ -13,7 +13,7 @@
 			String sName = request.getParameter("mName");
 			String sPhone = request.getParameter("mPhone");
 			String sNum = request.getParameter("TSN");
-			//숫자를 문자로
+			//문자를 숫자로
 			int nNum = Integer.parseInt(sNum);
 			String sTemp = "";
 		%>

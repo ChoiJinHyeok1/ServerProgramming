@@ -21,7 +21,7 @@
 		Random random = new Random();
 		nComNum = random.nextInt(3);
 		
-		
+		//유저
 		if(sRa.equals("가위"))
 			nUserNum = 0;
 		else if(sRa.equals("바위"))
@@ -29,6 +29,7 @@
 		else if(sRa.equals("보"))
 			nUserNum = 2;
 		
+		//컴퓨터
 		if(nComNum == 0)
 			sComputer = "가위";
 		else if(nComNum == 1)
@@ -36,6 +37,7 @@
 		else if (nComNum == 2)
 			sComputer = "보";
 		
+		//비교문
 		switch (nUserNum){
 		case 0 :  //가위
 			if(nComNum == 0)
@@ -65,7 +67,7 @@
 		
 	
 	%>
-	
+
 		유저 : <%= sRa %><br>
 		컴퓨터 : <%= sComputer %><br>
 		결과 : <%= sMsg %><br>

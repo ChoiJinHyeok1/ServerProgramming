@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
+	
 	<head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
@@ -20,7 +20,6 @@
 			String sID = request.getParameter("mID");
 			String sPwd = request.getParameter("mPwd");
 			String sTSN = request.getParameter("mTSN");
-			
 			int nNUm = Integer.parseInt(sTSN);
 		%>
 		이름 = <%= sName %><br>
@@ -28,6 +27,7 @@
 		나이 = <%= sAge %><br>
 		주소 = <%= sAddress %><br>
 		학교 = <%= sCollege %><br>
+		
 		아이디 = <%= sID %><br>
 		비밀번호 = <%= sPwd %><br>
 		
